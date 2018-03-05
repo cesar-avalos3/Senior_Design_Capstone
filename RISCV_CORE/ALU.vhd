@@ -236,7 +236,8 @@ begin
                         result <= zero_word & mul_reg(63 downto 32);
                     when instr_MULHSU =>
                         -- TODO - verify that this multiplier does not introduce problems on the schematic/layout
-                        mul_reg_plus <= std_logic_vector(signed(rs1(31) & rs1) * signed('0' & rs2));
+                        --mul_reg_plus <= std_logic_vector(signed(rs1(31) & rs1) * signed('0' & rs2));
+                        mul_reg_plus <= (others => '0'); -- issuesssss man
                         result <= zero_word & mul_reg_plus(63 downto 32);
                         
                     --  
