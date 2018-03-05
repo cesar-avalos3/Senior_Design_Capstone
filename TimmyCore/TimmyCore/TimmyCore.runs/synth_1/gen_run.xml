@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1520229104">
+  <File Type="PA-TCL" Name="TIMMYCORE_V2.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="TIMMYCORE_V2_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="TIMMYCORE_V2_reports.tcl"/>
+  <File Type="RDS-RDS" Name="TIMMYCORE_V2.vds"/>
+  <File Type="RDS-UTIL" Name="TIMMYCORE_V2_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="TIMMYCORE_V2_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="TIMMYCORE_V2.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="TIMMYCORE_V2_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="TIMMYCORE_V2_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/RISCV_CORE/config.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/RISCV_CORE/ALU.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/timmy_core/MMU_timmy_stub_V2.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/RISCV_CORE/Shifter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/RISCV_CORE/decode.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/RISCV_CORE/fence.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/timmy_core/mux_timmy.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Ram2DdrXadc_RefComp/ram2ddrxadc.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Cesar/Documents/GitHub/Ram2Ddr_RefComp/Source/Ram2DdrXadc_RefComp/ram2ddrxadc.vhd"/>
+        <Attr Name="ImportTime" Val="1393249530"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/timmy_core/ram_controller_timmy.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/RISCV_CORE/regfile.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/timmy_core/sext_timmy.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/timmy_core/TIMMYCORE_V2.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/timmy_core/MMU_timmy_stub.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/timmy_core/TIMMYCORE.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/RISCV_CORE/PCNext_Mux.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/RISCV_CORE/control.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/RISCV_CORE/exception.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/RISCV_CORE/load_store.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/timmy_core/memory_timmy.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/timmy_core/memory_timmy_parallel.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/RISCV_CORE/timer.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/Cesar/Documents/GitHub/CAV/Senior_Design_Capstone/RISCV_CORE/writeback.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/ddr/ddr/mig.prj">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="ddr"/>
+        <Attr Name="ScopedToCell" Val="ddr"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TIMMYCORE_V2"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/XDC/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Cesar/Documents/GitHub/Nexys4DDR/Resources/XDC/Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1520199177"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ddr"/>
+</GenRun>
